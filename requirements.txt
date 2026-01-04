@@ -115,7 +115,7 @@ idna==3.11
 ImageIO==2.37.2
 importlib_metadata==8.7.0
 install-playwright==0.1.1
-instructor==1.13.0
+instructor
 ipykernel==7.1.0
 ipython==9.8.0
 ipython_pygments_lexers==1.1.1
