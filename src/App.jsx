@@ -48,8 +48,8 @@ function App() {
 
   useEffect(() => {
     loadData();
-    // Poll every 30 seconds
-    const interval = setInterval(() => loadData(), 30000);
+    // Poll every 30 min
+    const interval = setInterval(() => loadData(), 1800000);
     return () => clearInterval(interval);
   }, [loadData]);
 
